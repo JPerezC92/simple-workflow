@@ -1,0 +1,7 @@
+{
+	"tailwindCSS.experimental.classRegex": [
+		["tv\\((([^()]*|\\([^()]*\\))*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+	],
+	"editor.formatOnSaveMode": "modifications",
+	"editor.formatOnSave": false
+}
