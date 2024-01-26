@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  db:
+    container_name: portfolio
+    image: postgres:16.1
+    restart: always
+    environment:
+      POSTGRES_DB: simple-workflow
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - '5432:5432'
