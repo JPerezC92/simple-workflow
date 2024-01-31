@@ -4,9 +4,10 @@
 		"standard-with-typescript",
 		"plugin:prettier/recommended",
 		"plugin:import/typescript",
-		"next/core-web-vitals"
+		"next/core-web-vitals",
+		"plugin:drizzle/all"
 	],
-	"plugins": ["import", "simple-import-sort", "unused-imports"],
+	"plugins": ["import", "simple-import-sort", "unused-imports", "drizzle"],
 	"parser": "@typescript-eslint/parser",
 	"overrides": [
 		{
